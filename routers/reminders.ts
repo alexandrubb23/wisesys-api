@@ -41,7 +41,9 @@ router.delete('/:id', (req, res) => {
 
   const reminderIndex = reminders.findIndex(reminderId(id));
 
-  res.json(reminders.splice(reminderIndex, 1));
+  const newReminders = reminders.splice(reminderIndex, 1);
+
+  res.json(newReminders);
 });
 
 export default router;
