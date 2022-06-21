@@ -2,7 +2,7 @@
 
 ## A small express API with TypeScript
 
-Clonse the project
+Clone the project
 ``
 https://github.com/alexandrubb23/reminders-api.git
 ``
