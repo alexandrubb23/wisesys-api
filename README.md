@@ -3,12 +3,12 @@
 ## A small express API with TypeScript
 
 Clone the project
-``
-https://github.com/alexandrubb23/reminders-api.git
-``
+`
+git clone https://github.com/alexandrubb23/reminders-api.git
+`
 
 Install dependencies
-``
+`
 npm i
 ``
 
