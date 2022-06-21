@@ -19,5 +19,5 @@ npm start
 
 Available endpoints (CRUD operations)
 ```
-[/reminders](http://localhost:8000/reminders)
+http://localhost:8000/reminders
 ```
