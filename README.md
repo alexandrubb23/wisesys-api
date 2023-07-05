@@ -1,23 +1,29 @@
-# reminders-api
+# wisesys-api
 
 ## A small express API with TypeScript
 
-Clone the project
+1. Clone the project
+
 ```
-git clone https://github.com/alexandrubb23/reminders-api.git
+git clone https://github.com/alexandrubb23/wisesys-api
 ```
 
-Install dependencies
+2. Install dependencies
+
 ```
 npm i
 ```
 
-Run the app
+3. Run the app
+
 ```
 npm start
 ```
 
-Available endpoints (CRUD operations)
+4 Available endpoints (CRUD operations)
+
 ```
-http://localhost:8000/reminders
+http://localhost:8000/tasks
+http://localhost:8000/users
+http://localhost:8000/users/login
 ```
