@@ -15,6 +15,12 @@ const users: User[] = [
 
 router.post('/', (req, res) => {
   const { firstName, lastName, email, password } = req.body;
+
+  // Check if user already exist
+  if (users.find(user => user.email === email)) {
+    return res.status(409).send('The user is already registered.')
+  }
+
   const user = new User(firstName, lastName, email, password);
 
   users.push(user);
